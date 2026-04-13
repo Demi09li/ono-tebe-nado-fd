@@ -9,7 +9,7 @@
     background-color: white;
 }
  
-.header_menu {    
+.header_menu {
     display: inline-block;
     justify-content: center;
     padding-top: 391.48;
@@ -162,7 +162,7 @@
     padding-bottom: 50px;
 }
 
-.title_lots  {
+.title_lots {
     padding-top: 180px;
     padding-bottom: 27px;
     padding-left: 64px;
@@ -298,7 +298,7 @@
     padding-top: 24px;
 }
 
-.about_text p + p  {
+.about_text p + p {
     margin-top: 24px;
 }
 
