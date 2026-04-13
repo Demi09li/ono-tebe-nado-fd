@@ -24,6 +24,6 @@
     url(raleway-bold.ttf) format('truetype'),
     url(raleway-bold.woff) format('woff'),
     url(raleway-bold.woff2) format('woff2');
-  font-weight: 800;
+  font-weight: 700;
   font-display: swap;
 }

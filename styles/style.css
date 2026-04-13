@@ -9,7 +9,7 @@
     background-color: white;
 }
  
-.header_menu {
+.header_menu {    
     display: inline-block;
     justify-content: center;
     padding-top: 391.48;
@@ -55,7 +55,9 @@
 }
 
 .cover {
-    position: relative;
+    display: block;
+    width: 1100px;
+    height: 757px;
     background-image: url(../image/lotus-flower.png);
     background-size: cover;
     color: white;
@@ -94,20 +96,23 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 165px 50px 147px;
-    gap: 205px;
+    padding: 165px 50px 207px;
+    gap: 80px;
 }
 
 .cover_title span {
     font-size: 100px;
     font-weight: 700;
-    line-height: 20%;
+    line-height: 30%;
 }
 
 .text_cover {
     display: block;
-    line-height: 100px;
-    letter-spacing: 30px;
+    padding-bottom: 20px;
+    letter-spacing: 30%;
+    width: 1000px;
+    top: 165px;
+    left: 50px;
 }
 
 .text_center {
@@ -124,8 +129,8 @@
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
-    padding: 0px 50px 55px 78px;
-    gap: 79px;
+    padding: 0px 50px 50px 50 px;
+    gap: 107px;
 }
 
 .cover_text {
@@ -136,7 +141,7 @@
 }
 
 .text_cover .letter_spacing {
-    letter-spacing: 60px;
+    letter-spacing: 30px;
 }
 
 .text_cover .no_letter_spacing {
@@ -154,12 +159,13 @@
     line-height: 51px;
     font-weight: 500;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .title_lots  {
     padding-top: 180px;
-    padding-bottom: 24px;
-    padding-left: 27px;
+    padding-bottom: 27px;
+    padding-left: 64px;
     color: black;
     font-size: 40px;
     font-family: 'raleway', sans-serif;
@@ -194,7 +200,7 @@
     display: flex;
     flex-direction: column;
     z-index: 1;
-    padding: 51px 50px 48px;
+    padding: 40px 40px 48px;
     justify-content: space-between;
     background-size: cover;
     background-repeat: no-repeat;
@@ -215,8 +221,8 @@
 
 .card_title {
     color: white;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 700;
     line-height: 120%;
     text-decoration-line: underline;
     text-transform: uppercase;
@@ -241,19 +247,19 @@
     color: black;
     font-size: 20px;
     font-weight: 400;
-    line-height: 23.48px;
+    line-height: 100%;
     margin-left: 64px;
 }
 
 .about {
-    margin-top: 148px;
+    margin-top: 155px;
 }
  
 .about_container {
     display: grid;
     grid-template-columns: 334px repeat(1, 1fr);
     gap: 25px;
-    padding: 34px 24px 0px;
+    padding: 24px 24px 0px;
 }
 
 .about_logo {
@@ -278,7 +284,8 @@
     color: black;
     font-size: 40px;
     font-weight: 700;
-    line-height: 46.96px;
+    line-height: 100%;
+    padding-bottom: 100px;
 }
 
 .about_text {
