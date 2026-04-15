@@ -304,14 +304,6 @@
     margin-top: 24px;
 }
 
-.text_up {
-    padding-top: 72px;
-}
-
-.text_down {
-    padding-top: 24px;
-}
-
 .footer {
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -319,16 +311,6 @@
     padding: 180px 50px 0px;
     gap: 10px;
     margin: 0;
-}
-
-.footer_address {
-    font-style: normal;
-    padding-left: 239.48px;
-    line-height: 24px;
-    letter-spacing: 0%;
-    font-size: 18px;
-    font-family: 'raleway', sans-serif;
-    list-style-type: none;
 }
 
 .footer_links {
@@ -353,11 +335,6 @@
 }
 
 .footer_images {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.images_footer {
     display: inline-block;
     vertical-align: middle;
 }
