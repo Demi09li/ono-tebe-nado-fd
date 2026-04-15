@@ -3,28 +3,31 @@
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     padding-top: 92px;
-    padding-right: 24px;
-    padding-bottom: 92px;
-    padding-left: 24px;
+    padding-right: 50px;
+    padding-bottom: 96px;
+    padding-left: 50px;
     background-color: white;
 }
- 
+
 .header_menu {
     display: inline-block;
     justify-content: center;
-    padding-top: 391.48;
-    padding-bottom: 22px;
+    max-width: 391px;
 }
 
-.menu_links {
+.header_links-list {
     display: flex;
     gap: 32px;
     padding-right: 7px;
     list-style-type: circle;
 }
 
-.main_link_marker {
+.link-active {
     list-style-type: none;
+    text-decoration: none;
+}
+
+.list_no-bullit {
     text-decoration: none;
 }
 
@@ -32,22 +35,20 @@
     text-decoration: none;
 }
 
-.header_logo {
+.header_logo-image {
     width: 148px;
     height: 105px;
 }
 
-.link_main {
-    text-decoration: none;
-}
-
 .address {
-    line-height: 18px;
-    letter-spacing: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     font-size: 18px;
-    font-family: 'raleway', sans-serif;
     list-style-type: none;
     font-style: normal;
+    max-width: 440px;
+    background-position: left;
 }
 
 .header .address {
