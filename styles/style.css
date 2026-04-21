@@ -185,6 +185,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    font-family: 'raleway';
 }
 
 .card_about_film {
@@ -259,7 +260,7 @@ body {
 .about_content {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 23px;
     padding-top: 100px;
 }
 
